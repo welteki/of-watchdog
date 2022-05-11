@@ -8,7 +8,7 @@ Reverse proxy for HTTP microservices and STDIO
 
 The `of-watchdog` implements a HTTP server listening on port 8080, and acts as a reverse proxy for running functions and microservices. It can be used independently, or as the entrypoint for a container with OpenFaaS.
 
-This version of the OpenFaaS watchdog adds support for HTTP proxying as well as STDIO, which enables re-use of memory and very fast serving of requests. It does not aim to replace the [Classic Watchdog](https://github.com/openfaas/faas/tree/master/watchdog), but offers another option for those who need these features.
+This version of the OpenFaaS watchdog adds support for HTTP proxying as well as STDIO, which enables re-use of memory and very fast serving of requests. It does not aim to replace the [Classic Watchdog](https://github.com/openfaas/of-watchdog), but offers another option for those who need these features.
 
 
 ### Goals:
